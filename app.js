@@ -93,6 +93,8 @@ class Run {
 							console.log("[wallet BEFORE]", customer1.wallet);
 							customer1.cart.push(manager1.warehouse[i].label);
 							customer1.buy(manager1.warehouse[i].price);
+							manager1.warehouse.splice(manager1.warehouse[i], 1);
+							console.log("[warehouse]", manager1.warehouse);
 							console.log("[cart]", customer1.cart);
 							console.log("[ wallet AFTER]", customer1.wallet);
 						}
