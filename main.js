@@ -7,6 +7,6 @@
 // 7) Customer may buy product -> customer - money (wallet) ->
 // Manager - product (which chose Customer)
 
-import { User, Manager, Customer } from "./components/users/users";
-import { Products, Alcohol, Bread, Meet, Cigarettes } from "./components/products/products";
-import { ProductsDB } from "./components/productsDB/usersDB/productsDB";
+import {User, Manager, Customer} from "./components/users/users";
+import {Products, Alcohol, Bread, Meet, Cigarettes} from "./components/products/products";
+import {ProductsDB} from "./components/productsDB/usersDB/productsDB";
